@@ -1,0 +1,1193 @@
+*{
+    margin: 0;
+    font-family: 'Petrona', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.divpesquisa{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 3vw;
+}
+
+.divpesquisa div {
+display: flex;
+
+}
+
+.inputpesquisa {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding: 5px 5px 5px 5px;
+    width: 230px;
+    height: 19px;
+    background-color: transparent;
+    border-color:#C95471 ;
+    border: solid 1px #C95471;
+}
+
+.buttonlupa {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #C95471;
+    border-color: #C95471;
+    border: solid 1px #C95471;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.a{
+    text-decoration: none;
+    color: #C95471;
+    font-size: 15px;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+ul>li {
+    color: #C95471;
+    font-size: 20px;
+    width: 30%;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    height: 20.5vh;
+    background-color:#FFC0CB;
+    
+}
+.cabecalho2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20.5vh;
+    background-color:#FFC0CB;
+    
+}
+.logomarca {
+    margin-left: 100px;
+    
+}
+
+.imagemincial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagemcontato{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+.imagemcadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.divcuidadoscomocorpo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.divcuidadoscomocorpo img {
+    overflow: hidden;
+    filter: brightness(70%);
+}
+.divmaquiagem img{
+    
+   overflow: hidden;
+   filter: brightness(70%);
+}
+.divcabelo img{
+    
+    overflow: hidden;
+    filter: brightness(70%);
+ }
+#divperfume{
+    overflow: hidden;
+   filter: brightness(70%);
+}
+#divperfume{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+#mocaprincipal {
+    color: rgba(0, 0,0,0.5);
+   overflow: hidden;
+   filter: brightness(60%);
+
+}
+
+.textomeio{
+    position: absolute;
+    z-index: 99;
+}
+
+.textocontato{
+    position: absolute;
+    z-index: 99;
+}
+.textocadastro{
+    position: absolute;
+    z-index: 99;
+}
+#divperfume{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+.divmaquiagem{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.divcabelo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+#textoperfume{
+    position: absolute;
+    z-index: 99;
+     
+}
+.textomaquiagem{
+    position: absolute;
+    z-index: 99;
+    
+}
+#textocabelo{
+    position: absolute;
+    z-index: 99;
+    
+}
+#textoperfume h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #C95471;
+    text-align:center ;
+    font-size: 60px; 
+}
+.textomaquiagem h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align:center ;
+    font-size: 60px;
+    
+}
+#textocabelo h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align:center ;
+    font-size: 60px;
+    
+}
+.divmaquiagem img{
+    
+    overflow: hidden;
+    filter: brightness(70%);
+ }
+.textocadastro h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align:center ;
+    font-size: 60px;
+    margin-left: 15vw;
+    width: 100%;
+}
+.textocadastro p{
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+     color: white;  
+margin-left: 45vw;
+
+}
+
+.textocontato h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align:center ;
+    font-size: 60px;
+}
+.textomaquiagem h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align:center ;
+    font-size: 60px;
+    
+}
+
+.textocontato span{
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+     align-items: flex-start; 
+     color: white;  
+     justify-content: flex-start;
+     padding: 5%;
+}
+.textomeio h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #C95471;
+    text-align:center ;
+    font-size: 70px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.textocontato p{
+    font-family: 'Petrona', serif;
+    font-weight: 400;
+    color: #C95471;
+    font-size: 60px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-bottom: 23vh;
+    margin-top: -4vh;
+    margin-left: 25vw;
+}
+.textomeio p{
+    font-weight: 300;
+    text-align:center ;
+    color: #FFC0CB;
+    font-size: 30px;
+    font-family: 'Petrona', serif;
+    margin-top: 2vh;
+    margin-left: 15vw;
+}
+
+section{
+    background-color:#FFC0CB;
+    height: 470.5vh;
+}
+
+.sectionrodape{
+    height: 70.5vh;
+    padding-top: 10%;
+}
+
+.sectioncards{
+    background-color:#FFC0CB;
+    height: 230.5vh;
+}
+
+.sectioncards2{
+    background-color:#FFC0CB;
+    height: 275.5vh;
+}
+
+#formulariosection {
+    display: flex;
+    height: 50.5vh;
+}
+
+#navtelefone{
+padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    margin-left: 10vw;
+}
+.telefoneemail {
+display: flex;
+
+}
+.telefoneemail h3{
+    font-size: 20px;
+    color: #C95471;
+    font-family: 'Petrona', serif;
+    font-weight: 100px;
+}
+.telefoneemail p{
+    font-size: 15px;
+    color: #C95471;
+    font-family: 'Petrona', serif;
+    font-weight: 100px;
+}
+.telefoneemail>div{
+    padding-left: 5%;
+}
+.navprincipios {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10rem 10rem;
+align-items: center;
+    justify-self: center;
+}
+
+
+.divprincipios h1{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-align: right;
+}
+
+.divprincipios p {
+    font-family: 'Petrona', serif;
+    font-size: 15px;
+    text-align: right;
+    line-height: 3.5vh;
+}
+
+#imgmocabolinha{
+    transition: 0.5s;
+}
+#imgmocabolinha:hover {
+
+    scale: 1.1;
+    transition: 0.5s;
+     
+}
+.sacola{
+    transition: 0.5s; 
+
+}
+.sacola:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.ulprodutos{
+    display: flex;
+    list-style: none;
+   width: 90%;
+    justify-content: space-evenly;
+}
+
+.ulprodutos>li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding-top: 5%;
+   
+}
+
+
+.navnossosprodutos h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cardproduto {
+    width: 300px;
+    height: 300px;
+    background: white;
+    border: solid 2px black;
+    text-align: center;
+    position: relative;
+}
+
+ 
+.divtodoscadprodutos{
+ display: grid;
+ grid-template-columns: 2fr 2fr 2fr;
+justify-content: center;
+justify-items: center;
+text-align: center;
+gap: 3%;
+padding-top: 5%;
+}
+
+
+
+.cardproduto p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.divdetextocard span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center ;
+    line-height: 1.5vh;
+    margin-top: 5vh;
+}
+.divdetextocard{     line-height: 25px;}
+
+.divdetextocard p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+  
+
+}
+
+.divdetextocard h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.volume{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 9%;
+    width: 75%;
+
+}
+
+.volume p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #5E5757;
+}
+
+.oleocapilar{
+    position: relative;
+    left: 11%;
+    top: 5%;
+    transform: translate(-5%);
+}
+#mascarafacial{
+    position: relative;
+    left: 5%;
+    bottom: 15%;
+    transform: translate(-5%);
+}
+
+#serumparaareadosolhos{
+    position: relative;
+    left: 2%;
+    top: 10%;
+    transform: translate(-5%);
+}
+
+#espumafacial{
+    position: relative;
+    left: 5%;
+    top: 8%;
+    transform: translate(-5%);
+}
+
+#localfacial{
+    position: relative;
+    left: 5%;
+    bottom: 12%;
+    transform: translate(-5%);
+}
+
+#esfoliantelabial{
+    position: relative;
+    right: 14%;
+    top: 1%;
+    transform: translate(-5%);
+}
+
+#hidrantelabial{
+    position: relative;
+    left: 1%;
+    bottom: 12%;
+    transform: translate(-5%);
+}
+
+#hidratantedosolhos{
+    position: relative;
+    left: 5%;
+    top: 3%;
+    transform: translate(-5%);
+}
+.hidratantefacial {
+    position: relative;
+    left: 9%;
+    top: 15%;
+    transform: translate(-5%);
+}
+
+.cremereparador {
+    position: relative;
+    left: 17%;
+    top: 15%;
+    transform: translate(-5%);
+}
+
+.espacocard {
+    padding-top: 7%;
+}
+
+.produtos-hover{
+    visibility: hidden;
+
+}
+
+.cardproduto:hover .produtos-hover{
+    visibility: visible;
+    background-color: #C95471;
+    font-family: 'Oswald', sans-serif;
+    width: 305PX;
+    height: 52px;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    bottom: -1%;
+    right: -1%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagensnav {
+    display: flex;
+    gap: 5%;
+    margin-top: 25vh;
+    justify-content: center;
+}
+
+#imagensnav>div {
+
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+#imagensnav>div:hover img {
+    filter: brightness(30%);
+    transform: scale(1.05);
+}
+
+.imgdasmocas {
+    transition: 0.5s;
+   
+}
+
+.imgdasmocas:hover {
+    filter: brightness(75%);
+    transform: scale(1.01);
+}
+.posicao {
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+.divtexto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    opacity: 0;
+    margin-top: 20px;
+    transition: 0.5s;
+    color: #C95471;
+    text-align: center;
+}
+
+#imagensnav>div:hover .divtexto {
+    opacity: 1;
+    margin-top: 0;
+}
+.rodapeposicao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10%;
+    background-color: #FFC0CB;
+}
+
+
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15%;
+    background-color: #FFC0CB;
+}
+
+.inputemail {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    color: #333333;
+    background-color: transparent;
+}
+
+.divdoemail{
+    padding-left: 3%;
+}
+
+input:focus, select:focus{
+    outline: 0;
+}
+
+.buttoninscreva{
+    padding: 15px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.psejaprimeiro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+
+.pganhe200 {
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+label {
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+}
+
+.divservico p{
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+}
+
+.divservico{
+    padding-right: 3%;
+}
+
+.ulservico{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-direction: column;
+    margin-left: -16%;
+}
+.ulservicos>li:hover{
+    color: #C95471;
+}
+
+.ulservico>li {
+    color: #797979;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Petrona', serif; 
+    padding-top: 5%;
+}
+
+.divsiga p {
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.ulsiga{
+    display: flex;
+    list-style: none;
+    width: 80%;
+    flex-direction: column;
+    margin-left: -26%;
+}
+
+.ulsiga>li{
+    color: #797979;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Petrona', serif; 
+    padding: 0;
+    padding-top: 5%;
+}
+
+
+
+.divlogo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.linha{
+    height: 0.5vh;
+    width: 10%;
+    background-color: #C95471;
+    margin-left: 45%;
+    
+}
+
+
+#form{
+    display: grid;
+    padding: 3rem;
+}
+
+#form h6{
+    font-family: 'Petrona', serif; 
+    padding-bottom: 1%;
+    font-size: 15px;
+    color: #5E5E5E;
+}
+
+label{
+    font-family: 'Petrona', serif; 
+    gap: 5%;
+    font-size: 15px;
+    color: #5E5E5E;
+    margin-bottom: 3vh;  
+}
+
+#message{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius:0;
+    height: 250px;
+    width: 100%;
+    border: 1px solid #C95471;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-top: 3vh;
+}
+textarea{
+    resize: vertical;
+}
+#name{
+    width: 300px;
+    height: 42px;
+    margin-top: 3vh;
+    border: solid 1px #C95471;
+}
+
+#email{
+    width: 360px;
+    height: 42px;
+    border: solid 1px #C95471;
+    margin-top: 3vh;
+}
+
+#assunto{
+    width: 300px;
+    height: 42px;
+    border: solid 1px #C95471;
+    margin-top: 3vh;
+}
+
+#submit{
+    padding: 15px 55px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border: solid 1px #C95471;
+    font-family: 'Petrona', serif; 
+    color: #C95471;
+    margin-top: 6vh;
+}
+
+.divnomeemai{
+    display: flex;
+    gap: 2%;
+}
+
+#sectioncadastro form{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
+#sectioncadastro{
+    height: 70.5vh;
+    padding-top: 10%;
+    gap: 5%;
+}
+
+#sectioncadastro h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 7%;
+    padding-top: 5%;
+}
+
+#sectioncadastro label{
+    font-family: 'Petrona', serif; 
+    font-size: 17px;
+    color: black;
+    margin-top: 5vh;  
+    gap: 5%;
+}
+
+#sectioncadastro b{
+    font-family: 'Petrona', serif; 
+    font-size: 17px;
+    color: black;
+    padding-top: 5vh;  
+    gap: 5%;
+}
+
+.sim input[type=radio]{
+    all: unset;
+    border: solid 1px #C95471;
+}
+
+#nomecompleto{
+    width: 859px;
+    height: 4vh;
+    margin-top: 3vh;
+    border: solid 1px #C95471;
+
+}
+
+.password{
+    width: 250px;
+    height: 4vh;
+    margin-top: 3vh;
+    border: solid 1px #C95471;
+    
+}
+
+#email2{
+    width: 859px;
+    height: 4vh;
+    border: solid 1px #C95471;
+    margin-top: 3vh;
+}
+
+#divradio{
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+    width: 100%;
+}
+
+#cadastrodiv{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 5%;
+    gap: 5%;
+}
+
+#cadastrar{
+    padding: 15px 55px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border: solid 1px #C95471;
+    font-family: 'Petrona', serif; 
+    color: #C95471;
+    margin-top: 6vh; 
+}
+
+#oulogar{
+    padding: 15px 55px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border: solid 1px gray;
+    font-family: 'Petrona', serif; 
+    color: gray;
+    margin-top: 6vh;
+}
+
+@media (max-width: 1280px){
+  
+    section{
+        height: 300.5vh;
+    }
+    .cabecalho{
+    height: 15.5vh;
+    }
+    .cabecalho2 {
+        height: 15.5vh;
+    }
+    .cabecalho2 ul{
+        width: 100%;
+    }
+    .cabecalho2 .divpesquisa{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 3vw;
+    }
+    ul{
+        width: 40%;
+    }
+  ul>li {
+    width: 10%;
+    }
+    .logomarca {
+        margin-left: 20px;
+        
+    }
+    
+    .divpesquisa{
+        margin-right: 17vw;
+    }
+    .inputpesquisa {
+        padding: 5px 5px 5px 5px;
+        width: 130px;
+        height: 9px;
+    }
+    
+    .buttonlupa {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        background-color: #C95471;
+        border-color: #C95471;
+        border: solid 1px #C95471;
+        padding: 5px 5px 5px 5px;
+        height: 21px;
+    }
+    .textomeio h1{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        color: #C95471;
+        text-align:center ;
+        font-size: 60px;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        margin-right: 15vw;
+    }
+    .textomeio p{
+        font-weight: 300;
+        text-align:center ;
+        color: #FFC0CB;
+        font-size: 25px;
+        font-family: 'Petrona', serif;
+        margin-top: 2vh;
+        margin-left: 15vw;
+    }
+    .navprincipios {
+        display: flex;
+        justify-content: space-around;
+        padding: 5rem 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 85%;
+        gap: 2%;
+    }
+    #imgmocabolinha{
+        width: 35%;
+    }
+    .divprincipios h1{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        text-align: right;
+    }
+    
+    .divprincipios p {
+        font-family: 'Petrona', serif;
+        font-size: 14px;
+        text-align: right;
+        line-height: 3.5vh;
+    }
+    .navnossosprodutos h1{
+        margin-right: 5vw;
+    }
+    .linha{
+        margin-left: 44%;
+        
+    }
+    .ulprodutos{
+       width: 85%;;
+    }
+    
+    .ulprodutos>li {
+        font-size: 13px;
+        width: 85%;
+    }
+    .divtodoscadprodutos{
+       padding-top: 5%;
+       padding-left:1% ;
+       width: 95%;
+    }
+    #imagensnav {
+        justify-content: flex-start;
+        padding-left: 10%;
+    }
+    .rodape{
+        justify-content: flex-start;
+        gap: 10%;
+    }
+    .sectionrodape{
+        height: 50.5vh;
+        padding-top: 10%;
+    }
+    .textocontato p{
+        margin-bottom: 15vh;
+        margin-top: -4vh;
+        margin-left: 25vw;
+    }
+    .sectioncards2{
+        background-color:#FFC0CB;
+        height: 165.5vh;
+    }
+    .sectioncards{
+        background-color:#FFC0CB;
+        height: 165.5vh;
+    }
+}
+
+@media (min-width: 1920px){
+  
+    section{
+        background-color:#FFC0CB;
+        height: 350.5vh;
+    }
+    ul {
+        width: 65%;
+        margin-left: 5vw;   
+    }
+    .a{
+        font-size: 25px;
+    }
+    .divpesquisa{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 5vw;
+    }
+    .logomarca{
+        width: 85%;
+    }
+    .textomeio h1{
+        font-size: 100px;
+    }
+    .textomeio p{
+        font-size: 50px;
+    }
+    .divprincipios h1{
+        font-size: 65px;
+    }
+    
+    .divprincipios p {
+        font-family: 'Petrona', serif;
+        font-size: 25px;
+        line-height: 4.5vh;
+    }
+    #imgmocabolinha{
+        width: 50%;
+    }
+    .navnossosprodutos h1{
+        font-size: 60px;
+    }
+    .ulprodutos{
+       width: 90%;
+    }
+    
+    .ulprodutos>li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    .divtodoscadprodutos{
+       padding-top: 5%;
+       padding-left:1% ;
+       width: 100%;
+    }
+    .espacocard {
+        padding-top: 10%;
+    }
+    .divdetextocard span {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        line-height: 1.5vh;
+      
+    }
+    .divdetextocard{     line-height: 25px;}
+
+    .divdetextocard p{
+        font-size: 15px;
+    }
+    
+    .divdetextocard h6{
+        font-size: 20px;
+    }
+    
+    .volume p{
+        font-size: 20px;
+    }
+    #imagensnav {
+        justify-content: center;
+        padding-left: 10%;
+    }
+    .rodape{
+        justify-content: flex-start;
+        gap: 15%;
+        padding-bottom: 5%;
+    }
+    .sectioncards2{
+        background-color:#FFC0CB;
+        height: 165.5vh;
+    }
+    .sectioncards{
+        background-color:#FFC0CB;
+        height: 165.5vh;
+    }
+    #formulariosection {
+        display: flex;
+        height: 50.5vh;
+        justify-content: center;
+        width: 100%;
+    }
+    #form{
+        display: grid;
+        padding: 3rem;
+        width: 100%;
+    }
+    #form h6{
+        font-family: 'Petrona', serif; 
+        padding-bottom: 1%;
+        font-size: 25px;
+        color: #5E5E5E;
+    }
+    
+    label{
+        gap: 5%;
+        font-size: 25px;
+        margin-bottom: 3vh;  
+    }
+    #navcontato{
+        width: 50%;
+    }
+    #submit{
+        padding: 20px 55px;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        border: solid 1px #C95471;
+        font-family: 'Petrona', serif; 
+        color: #C95471;
+        margin-top: 5vh;
+    }
+}
